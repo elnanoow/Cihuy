@@ -1,0 +1,38 @@
+create or replace table `rakamin-kf-analytics-451912.kimia_farma.kf_analytics` as
+select
+  t.transaction_id,
+  t.date,
+  extract(year from t.date) as year,
+  extract(month from t.date) as month,
+  t.branch_id,
+  kc.branch_name,
+  kc.kota,
+  kc.provinsi,
+  kc.rating as rating_cabang,
+  t.customer_name,  
+  t.product_id,
+  p.product_name,
+  t.price as actual_price,
+  t.discount_percentage,
+  case
+        when p.price <= 50000 then 0.1
+		    when p.price >50000 and p.price <= 100000 then 0.15
+		    when p.price >100000 and p.price <= 300000 then 0.2
+		    when p.price >300000 and p.price <= 500000 then 0.25
+		    else 0.3 
+  end as gross_profit_percentage,
+  round(p.price * (1 - t.discount_percentage)) as nett_sales,
+(p.price *
+  case
+        when p.price <= 50000 then 0.1
+        when p.price > 50000 and p.price <= 100000 then 0.15
+        when p.price > 100000 and p.price <= 300000 then 0.2
+        when p.price > 300000 and p.price <= 500000 then 0.25
+        else 0.3
+        end) - (p.price - (round(p.price * (1 - t.discount_percentage)))) as nett_profit,
+	t.rating AS transaction_rating
+from `rakamin-kf-analytics-451912.kimia_farma.kf_final_transaction` as t
+left join `rakamin-kf-analytics-451912.kimia_farma.kf_kantor_cabang` as kc
+      on t.branch_id = kc.branch_id
+left join `rakamin-kf-analytics-451912.kimia_farma.Kf_product` as p
+      on t.product_id = p.product_id;
