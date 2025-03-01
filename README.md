@@ -31,7 +31,7 @@ Syntax dijalankan melalui tahapan berikut:
 1. Membuat tabel baru dengan nama 'kf_analytics'.
 2. Menentukan kolom-kolom yang akan dimasukkan ke dalam tabel, dengan beberapa kolom memerlukan pemrosesan tambahan, seperti:
     - `tahun`: diambil dari tanggal menggunakan fungsi EXTRACT YEAR.
-    - `bulan: diambil dari tanggal menggunakan fungsi EXTRACT MONTH.
+    - `bulan`: diambil dari tanggal menggunakan fungsi EXTRACT MONTH.
     - `persentase_gross_laba`: dihitung berdasarkan kolom harga menggunakan fungsi IF.
     - `net_sales`: nilai harga setelah dikurangi diskon.
     - `net_profit`: dihitung berdasarkan laba dan persentase_gross_laba.
