@@ -5,4 +5,17 @@ Project ini bertujuan untuk menganalisis kinerja bisnis Kimia Farma selama perio
 ### **Overview**
 ---
 Kimia Farma, sebagai perusahaan farmasi, perlu memahami tren penjualan dan profitabilitas untuk mengoptimalkan kinerja dan strategi bisnisnya. Dataset yang tersedia mencakup informasi transaksi seperti data transaksi, data inventori, data produk, dan data kantor cabang. Analisis ini akan membantu manajemen dalam memahami bagaimana bagaimana kinerja bisnis dalam total penjualan dan profit, baik secara keseluruhan maupun per provinsi dari tahun 2020 hingga 2023.
-https://console.cloud.google.com/bigquery?sq=119861313903:ce8c189521244770a4802990e6b39a61
+
+
+
+### **Tahap Pengerjaan**
+---
+### 1. Mengimport Dataset ke BigQuery**
+Proses impor dataset ke BigQuery dilakukan melalui beberapa langkah berikut:
+Membuat project dengan nama Bakamin-KF-Analytics.
+Membuat dataset bernama kimia_farma.
+Mengunggah file .csv ke dalam tabel yang telah dibuat, dengan daftar file sebagai berikut:
+kf_final_transactions
+kf_inventory
+kf_kantor_cabang
+kf_Product
