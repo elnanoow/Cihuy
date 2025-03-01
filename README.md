@@ -16,9 +16,13 @@ Proses impor dataset ke BigQuery dilakukan melalui beberapa langkah berikut:
 Membuat project dengan nama Bakamin-KF-Analytics.
 Membuat dataset bernama kimia_farma.
 Mengunggah file .csv ke dalam tabel yang telah dibuat, dengan daftar file sebagai berikut:
+
 kf_final_transactions
+
 kf_inventory
+
 kf_kantor_cabang
+
 kf_Product
 
 ### 2. Tabel Analisa
