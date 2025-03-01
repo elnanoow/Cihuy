@@ -17,13 +17,13 @@ Proses impor dataset ke BigQuery dilakukan melalui beberapa langkah berikut:
 2. Membuat dataset bernama kimia_farma.
 3. Mengunggah file .csv ke dalam tabel yang telah dibuat, dengan daftar file sebagai berikut:
 
-kf_final_transactions
+    kf_final_transactions
 
-kf_inventory
+    kf_inventory
 
-kf_kantor_cabang
+    kf_kantor_cabang
 
-kf_Product
+    kf_Product
 
 ### 2. Tabel Analisa
 Berikut merupakan gambaran hasil dari tabel yang sudah di analisa :
