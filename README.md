@@ -20,4 +20,4 @@ kf_final_transactions
 kf_inventory
 kf_kantor_cabang
 kf_Product
-https://docs.google.com/spreadsheets/d/1XUep0iTDMqESju_LtTV-YN4Q1lmO2wL0QQfaVS6Cza0/edit?usp=sharing
+(lihat tabel [kf_analytcs](https://docs.google.com/spreadsheets/d/1XUep0iTDMqESju_LtTV-YN4Q1lmO2wL0QQfaVS6Cza0/edit?usp=sharing))
