@@ -23,4 +23,5 @@ kf_Product
 
 ### 2. Tabel Analisa
 Berikut merupakan gambaran hasil dari tabel yang sudah di analisa :
+![Screenshot 2025-03-01 142655](https://github.com/user-attachments/assets/dd684fab-80a0-465b-940e-df562d88974f)
 (lihat tabel [kf_analytcs](https://docs.google.com/spreadsheets/d/1XUep0iTDMqESju_LtTV-YN4Q1lmO2wL0QQfaVS6Cza0/edit?usp=sharing))
