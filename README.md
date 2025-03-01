@@ -39,3 +39,6 @@ Syntax dijalankan melalui tahapan berikut:
 
 ### 4. Analisis Kinerja Dashboard Kimia Farma
 Dashboard ini dibuat dengan menggunakan Google Looker Studio
+![Copy_of_Copy_of_Looker_Studio_Reporting_-_2_27_25,_6_29 PM_page-0001](https://github.com/user-attachments/assets/30b33cb7-4d47-49e9-ae4c-963beb17783a)
+![Copy_of_Copy_of_Looker_Studio_Reporting_-_2_27_25,_6_29 PM_page-0001](https://github.com/user-attachments/assets/36597175-dd3a-4f2d-8fe3-a048436ed62f)
+
