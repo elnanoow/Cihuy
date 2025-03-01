@@ -10,7 +10,7 @@ Kimia Farma, sebagai perusahaan farmasi, perlu memahami tren penjualan dan profi
 
 ### **Tahap Pengerjaan**
 ---
-### 1. Mengimport Dataset ke BigQuery**
+### 1. Mengimport Dataset ke BigQuery
 Proses impor dataset ke BigQuery dilakukan melalui beberapa langkah berikut:
 Membuat project dengan nama Bakamin-KF-Analytics.
 Membuat dataset bernama kimia_farma.
