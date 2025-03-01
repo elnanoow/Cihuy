@@ -25,3 +25,17 @@ kf_Product
 Berikut merupakan gambaran hasil dari tabel yang sudah di analisa :
 ![Screenshot 2025-03-01 142655](https://github.com/user-attachments/assets/dd684fab-80a0-465b-940e-df562d88974f)
 (lihat tabel [kf_analytcs](https://docs.google.com/spreadsheets/d/1XUep0iTDMqESju_LtTV-YN4Q1lmO2wL0QQfaVS6Cza0/edit?usp=sharing))
+
+### 3. Syntax BigQuery
+Syntax dijalankan melalui tahapan berikut:
+1. Membuat tabel baru dengan nama 'kf_analytics'.
+2. Menentukan kolom-kolom yang akan dimasukkan ke dalam tabel, dengan beberapa kolom memerlukan pemrosesan tambahan, seperti:
+    - `tahun`: diambil dari tanggal menggunakan fungsi EXTRACT YEAR.
+    - `bulan: diambil dari tanggal menggunakan fungsi EXTRACT MONTH.
+    - `persentase_gross_laba`: dihitung berdasarkan kolom harga menggunakan fungsi IF.
+    - `net_sales`: nilai harga setelah dikurangi diskon.
+    - `net_profit`: dihitung berdasarkan laba dan persentase_gross_laba.
+3. Menggabungkan data dengan tabel lainnya menggunakan LEFT JOIN.
+
+### 4. Analisis Kinerja Dashboard Kimia Farma
+Dashboard ini dibuat dengan menggunakan Google Looker Studio
