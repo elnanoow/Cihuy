@@ -1,3 +1,4 @@
+
 # Final Task: Analisis Kinerja Bisnis Kimia Farma tahun 2020 - 2023
 
 Project ini bertujuan untuk menganalisis kinerja bisnis Kimia Farma selama periode 2020-2023 menggunakan dashboard interaktif dan query SQL di BigQuery dan visualisasi data menggunakan Looker Studio.
@@ -19,3 +20,4 @@ kf_final_transactions
 kf_inventory
 kf_kantor_cabang
 kf_Product
+https://docs.google.com/spreadsheets/d/1XUep0iTDMqESju_LtTV-YN4Q1lmO2wL0QQfaVS6Cza0/edit?usp=sharing
