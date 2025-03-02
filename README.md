@@ -43,7 +43,8 @@ Syntax dijalankan melalui tahapan berikut:
 ### 4. Analisis Kinerja Dashboard Kimia Farma
 Dashboard ini dibuat dengan menggunakan Google Looker Studio
 ![Copy_of_Copy_of_Looker_Studio_Reporting_-_2_27_25,_6_29 PM_page-0001](https://github.com/user-attachments/assets/30b33cb7-4d47-49e9-ae4c-963beb17783a)
-![Copy_of_Copy_of_Looker_Studio_Reporting_-_2_27_25,_6_29 PM (1)_page-0001](https://github.com/user-attachments/assets/96d1798b-39ab-471c-b132-7f775960bf75)
+![Dashboard_2 (1)_page-0001](https://github.com/user-attachments/assets/e0857463-d14b-43cd-a1cf-8196897b8fdf)
+
 
 Dengan memanfaatkan tools dari Looker Studio ini, berbagai aspek kinerja bisnis Kimia Farma dapat dijelaskan secara lebih mendalam, mulai dari tren penjualan, profitabilitas, hingga distribusi produk di setiap provinsi. Penggunaan Google Looker Studio memungkinkan manajemen untuk mengakses laporan yang lebih dinamis, mempercepat proses pengambilan keputusan, serta mengidentifikasi peluang strategi guna meningkatkan efisiensi operasional dan daya saing perusahaan.
 
