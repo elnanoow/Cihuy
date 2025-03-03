@@ -6,7 +6,7 @@ Project ini bertujuan untuk menganalisis kinerja bisnis Kimia Farma selama perio
 ### **Overview**
 ---
 Sebagai perusahaan farmasi, Kimia Farma perlu menganalisis tren penjualan dan profitabilitas guna mengoptimalkan strategi serta kinerja bisnisnya. Data yang tersedia mencakup berbagai informasi seperi data transaksi, data inventaris, data produk, dan data kantor cabang. Melalui analisis ini, manajemen diharapkan dapat memperoleh wawasan mengenai kinerja bisnis, baik dari segi total penjualan maupun laba, secara keseluruhan maupun per provinsi dalam rentang waktu 2020 hingga 2023. 
-https://drive.google.com/file/d/18YI-xpCq_5ZMSrYIgwIj2m0Qga0Pyarr/view?usp=sharing
+https://bit.ly/3F5cNhV
 
 
 
